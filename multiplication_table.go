@@ -1,5 +1,5 @@
 //make a cli game which take a number and print the multiplication table of that number
-package main
+package multiplication_table
 import (
 	"fmt"
 	"os"

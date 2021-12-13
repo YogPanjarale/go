@@ -1,4 +1,4 @@
-package main
+package number_guessing_game
 
 import (
 	"fmt"
