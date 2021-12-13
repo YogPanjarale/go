@@ -17,9 +17,9 @@ func positiveDiffrence(guess, number int) int {
 func main() {
 	rand.Seed(time.Now().Unix())
 	answer := rand.Intn(100)
-	fmt.Println("Welcome to the number guessing game with go!")
+	fmt.Println("Welcome to the number guessing game with go 🏁 !")
 	fmt.Println("You have to Guess a number between 0 and 100")
-	fmt.Println("You have 5 tries")
+	fmt.Println("You have 5 tries 🎏")
 	for i := 0; i < 5; i++ {
 		fmt.Printf("#%d Enter Your Guess : ", i+1)
 		var guess int
@@ -27,6 +27,7 @@ func main() {
 		switch positiveDiffrence(guess, answer) {
 		case 0:
 			fmt.Println("You guessed it!")
+			fmt.Println("You won! 🎊🎊🎊 🎉🎉🎉🎉🎉🎉")
 			return
 		case 1:
 			fmt.Println("SO CLOSE!")
