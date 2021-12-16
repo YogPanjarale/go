@@ -1,10 +1,11 @@
 //make a cli game which take a number and print the multiplication table of that number
-package multiplication_table
+package main
 import (
 	"fmt"
 	"os"
 )
-func main() {
+func multiplication_table() {
+	fmt.Scanln()
 	fmt.Print("Enter a number: ")
 	var input int
 	_, err := fmt.Scanf("%d", &input)

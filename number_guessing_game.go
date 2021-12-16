@@ -1,4 +1,4 @@
-package number_guessing_game
+package main
 
 import (
 	"fmt"
@@ -14,7 +14,8 @@ func positiveDiffrence(guess, number int) int {
 	}
 }
 
-func main() {
+func number_guessing_game() {
+	fmt.Scanln()
 	rand.Seed(time.Now().Unix())
 	answer := rand.Intn(100)
 	fmt.Println("Welcome to the number guessing game with go 🏁 !")
